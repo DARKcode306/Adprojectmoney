@@ -40,5 +40,5 @@ jobs:
           project: "darkcode306-adprojectmo-79"
           entrypoint: "jsr:@deno/nextjs-start/v15"
           root: "."
-          include: .next, public
+          
           
