@@ -37,8 +37,8 @@ jobs:
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: "darkcode306-adprojectmo-23"
-          entrypoint: "https://deno.land/std@0.217.0/http/file_server.ts"
-          root: "dist"
-          
+          project: "darkcode306-adprojectmo-79"
+          entrypoint: "jsr:@deno/nextjs-start/v15"
+          root: "."
+          include: .next, public
           
