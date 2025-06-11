@@ -151,7 +151,7 @@ app.use((req, res, next) => {
   });
 
   // Initialize Telegram bot
-  if (process.env.TELEGRAM_BOT_TOKEN) {
+  if (process.env.BOT_TOKEN) {
     console.log('🤖 Initializing Telegram Bot...');
     try {
       const result = await telegramBot.setWebhook();
